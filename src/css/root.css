@@ -920,3 +920,19 @@ body.dark-mode #navigation #navbar-menu .dropdown.open .dropdown-menu {
     background: #061623;
   }
 }
+
+video::-webkit-media-controls {
+    display: none !important;
+}
+
+video::-moz-media-controls {
+    display: none !important;
+}
+
+video::-ms-media-controls {
+    display: none !important;
+}
+
+video::media-controls { /* Standard property for future compatibility */
+    display: none !important;
+}
