@@ -61,6 +61,7 @@
     /* Makes image act like a background-image */
     object-fit: cover;
   }
+  
   #hero .cs-container {
     width: 100%;
     max-width: 80em;
